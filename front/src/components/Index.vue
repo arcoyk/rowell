@@ -5,22 +5,30 @@
     </div>
     <div class="col s8">
       main
+      <card
+        v-bind:c_title="'Good Days'"
+        v-bind:c_content="'Good days gone'"
+        v-bind:c_link="'http://baddays.com'"
+        v-bind:c_link_title="'Bad Days'"
+      >
+      </card>
     </div>
+
   </div>
 </template>
 
 <script>
-import axios from 'axios'
+import axios from "axios"
+import card from "./card"
 
 export default {
-  name: 'Index',
+  name: "index",
   components: {
+    card
   },
   created: function() {
   },
   computed: {
-    hoge: function() {
-    }
   },
   data () {
     return {
