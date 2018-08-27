@@ -10,6 +10,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "animate.css": "^3.7.0",
+    "animate.min.css": "0.0.3",
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "material-icons": "^0.2.3",
+    "materialize-css": "^0.100.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
